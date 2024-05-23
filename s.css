@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(114, 76, 174, 0.5);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: calc(15px + 0.390625vw);
+    border-radius: 25px;
+    /*gradiant*/
+    background: linear-gradient(-45deg, #d6649b, #c876d6, #6188be, #23b092);
+    background-size: 400% 400%;
+    animation: gradient 25s ease infinite;
+    background: url("WhatsApp Image 2024-01-05 at 14.56.08.jpeg") repeat fixed 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/*First Picture Invitation title*/
+.firstPicName {
+    position: relative;
+    text-align: center;
+    font-family:cursive ;
+    color:rgb(211, 190, 246); 
+    font-size: 120px; 
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 25px;
+}
+.overlay-name {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+/*Information and Link to Location*/
+.line1{
+    width: 100%;
+    /*background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    
+}
+.line2{
+    width: 100%;
+    /*background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+
+}
+.line3{
+    width: 100%;
+    /*background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+}
+.date{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+}
+.heart{
+    color: #6188be;
+}
+.link1{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);
+    background-position: center;
+    background-size: cover;
+    position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+}
+.link2{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+}
+.title{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+    font-size: 90px;
+    color: rgb(22, 96, 69);
+    -webkit-text-stroke: 1px #062d05;
+    border-radius: 25px;
+}
+
+/*Countdown*/
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+li span{
+    display: block;
+    font-size: 80px;
+    color: rgb(63, 22, 96);
+}
+li.separator{
+    margin: 0 20px;
+    font-size: 3rem;
+    line-height: 2.5;
+    color: rgb(45, 9, 86);
+}
+.counterText{
+    margin: 0 20px;
+    font-size: 3rem;
+    line-height: 2.5;
+    color: rgb(22, 96, 69);
+    -webkit-text-stroke: 1px #062d05;
+    font-family: cursive;
+    font-size: 80px;
+}
+li:first-of-type{
+    margin-right: 5rem;
+}
+.countdownSec{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 25px;
+}
+/*Buttons*/
+.button {
+    border: 2px solid #8F9F76;
+    background-color: #CDD4AD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    color:  rgb(45, 9, 86);;
+}
+.line {
+    border-bottom: 2px solid rgb(63, 22, 96);
+    margin-top: 2px;
+    width: 100%;
+}
+.socialMedia{
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.createdByMe{
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 30px;
+}

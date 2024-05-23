@@ -1,13 +1,3 @@
-document.getElementById("splitButton").addEventListener("click", function() {
-    document.querySelector(".leftSide").classList.add("animateLeft");
-    document.querySelector(".rightSide").classList.add("animateRight");
-    setTimeout(function() {
-        document.querySelector(".bothSides").style.display = "none";
-        document.querySelector(".behindText").style.display = "block";
-    }, 1000); // This should match the duration of your animation
-});
-
-
 var days = document.getElementById('days')
 var hours = document.getElementById('hours')
 var mins = document.getElementById('mins')
