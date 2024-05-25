@@ -103,7 +103,7 @@ body {
     text-align: center;
     font-family: 'Apple Chancery', 'Comic Sans MS', 'Brush Script MT', cursive;
     color: white;
-    font-size: 300%;
+    font-size: 250%;
     width: 100%;
     white-space: nowrap;
     display: inline-block;
@@ -264,7 +264,7 @@ li:first-of-type{
     text-align: center;
     border-radius: 25px;
     background-image: url('time1.png');
-    height: 55%;
+    height: 60%;
 }
 .dressCode .section2 {
     text-align: center;
@@ -296,6 +296,16 @@ li:first-of-type{
     text-align: center;
     border-radius: 25px;
     height: 50%;
+}
+.socialMedia2{
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(asistencia.png);
+    height: 65%;
 }
 .line3{
     width: 100%;
