@@ -4,7 +4,7 @@ document.getElementById("splitButton").addEventListener("click", function() {
     setTimeout(function() {
         document.querySelector(".bothSides").style.display = "none";
         document.querySelector(".behindText").style.display = "block";
-    }, 1000); // This should match the duration of your animation
+    }, 800); 
 });
 
 

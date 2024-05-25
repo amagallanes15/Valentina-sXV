@@ -7,7 +7,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-color: rgba(157, 239, 162, 0.5);
+    background-color: rgb(205, 180, 219);
     background-position: center;
     background-size: cover;
     font-size: calc(15px + 0.390625vw);
@@ -51,11 +51,13 @@ body {
     width: 100%;
     height: 100vh;
     overflow-y: auto;
-    background-color: rgb(191, 216, 195);
+    background-color: rgb(205, 180, 219);
+    background-image: url('back.png');
     z-index: 0;
     color: black;
     font-size: 24px;
     padding: 20px;
+    background-image: src="back.png";
 }
 
 .leftSide.animateLeft {
@@ -77,16 +79,15 @@ body {
 }
 
 .firstPic {
-    width: 90%;
-    border-radius: 5px;
-    border: 2px solid rgb(9, 86, 35);
+    width: 100%;
+    
 }
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+    width: 100%;
 }
 
 .overlay-name {
@@ -100,9 +101,9 @@ body {
 .firstPicName {
     position: relative;
     text-align: center;
-    font-family: cursive;
-    color: rgb(211, 190, 246);
-    font-size: 250%;
+    font-family: 'Apple Chancery', 'Comic Sans MS', 'Brush Script MT', cursive;
+    color: white;
+    font-size: 300%;
     width: 100%;
     white-space: nowrap;
     display: inline-block;
@@ -147,6 +148,49 @@ body {
     color: rgb(45, 9, 86);
     border-radius: 25px;
 }
+.location1_0 {
+    width: 100%;
+    background-color: rgb(211, 190, 246);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+    background-image: url('misa.png');
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Ensures content is aligned to the bottom if there's extra space */
+    align-items: center; /* Centers children horizontally */
+    padding: 20px; /* Adds some padding for spacing */
+}
+
+.location1_0 .button {
+    margin-top: auto; /* Pushes the button to the bottom */
+}
+.location2_0 {
+    width: 100%;
+    background-color: rgb(211, 190, 246);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+    background-image: url('recepcion.png');
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Ensures content is aligned to the bottom if there's extra space */
+    align-items: center; /* Centers children horizontally */
+    padding: 20px; /* Adds some padding for spacing */
+}
+
+.location2_0 .button {
+    margin-top: auto; /* Pushes the button to the bottom */
+}
+
 
 .button {
     border: 2px solid #8F9F76;
@@ -160,6 +204,9 @@ body {
     cursor: pointer;
     border-radius: 5px;
     color: rgb(45, 9, 86);
+}
+.button:hover{
+    background-color: #8F9F76;
 }
 
 .title {
@@ -176,10 +223,11 @@ body {
 ul{
     display: flex;
     justify-content: center;
+    padding-top: 25%;
 }
 ul li{
     list-style-type: none;
-    font-size: 80%;
+    font-size: 60%;
     text-transform: uppercase;
     
 }
@@ -190,8 +238,7 @@ li span{
 }
 li.separator{
     margin: 0 20px;
-    font-size: 150%;
-    line-height: 2.5;
+    font-size: 145%;
     color: rgb(45, 9, 86);
 }
 .counterText{
@@ -214,9 +261,10 @@ li:first-of-type{
     background-position: center;
     background-size: cover;
     position: relative;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     border-radius: 25px;
+    background-image: url('time1.png');
+    height: 55%;
 }
 .dressCode .section2 {
     text-align: center;
@@ -238,6 +286,16 @@ li:first-of-type{
     position: relative;
     text-align: center;
     border-radius: 25px;
+}
+.socialMedia1{
+    background-color: rgb(211, 190, 246);
+    background-image: url(pictures.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    height: 50%;
 }
 .line3{
     width: 100%;
