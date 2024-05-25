@@ -225,6 +225,9 @@ ul{
     justify-content: center;
     padding-top: 42%;
 }
+li.first-of-type{
+    margin-right: 5%;
+}
 ul li{
     list-style-type: none;
     font-size: 60%;

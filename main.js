@@ -1,4 +1,11 @@
 document.getElementById("splitButton").addEventListener("click", function() {
+    // Create an audio element
+    var audio = new Audio('TinaSong.m4a');
+
+    // Play the audio
+    audio.play();
+
+    // Existing animation code
     document.querySelector(".leftSide").classList.add("animateLeft");
     document.querySelector(".rightSide").classList.add("animateRight");
     setTimeout(function() {
