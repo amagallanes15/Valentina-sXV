@@ -407,3 +407,36 @@ li:first-of-type{
     from {opacity: .4} 
     to {opacity: 1}
   }
+
+  .butterfly-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+  
+  .butterfly {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: fly 8s infinite linear;
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+      transform: translate(50vw, 20vh) rotate(90deg);
+    }
+    50% {
+      transform: translate(100vw, 50vh) rotate(0deg);
+    }
+    75% {
+      transform: translate(50vw, 80vh) rotate(-90deg);
+    }
+    100% {
+      transform: translate(0, 100vh) rotate(0deg);
+    }
+  }
