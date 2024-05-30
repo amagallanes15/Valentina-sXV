@@ -65,4 +65,32 @@ const options = {
   threshold: 0.5
 };
 
+let slideIndex = 0;
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let totalSlides = slides.length; // Get the total number of slides
+  
+  for (i = 0; i < totalSlides; i++) {
+    slides[i].style.display = "none"; // Hide all slides
+  }
+
+  slideIndex++;
+  if (slideIndex > totalSlides) { slideIndex = 1 } // Reset to the first slide if index exceeds total slides
+
+  slides[slideIndex - 1].style.display = "block"; // Show the current slide
+  
+  setTimeout(showSlides, 3000); // Change slide every 3 seconds
+}
+
+// Initialize the slideshow
+showSlides();
